@@ -36,7 +36,7 @@ SELECT
 		WHEN cu.cst_gndr != 'n/a' THEN cu.cst_gndr
 		ELSE COALESCE(ca.gen, 'n/a')
 	END AS gender,
-	cu.cst_create_date
+	cu.cst_create_date AS create_date
 FROM silver.crm_cust_info cu
 LEFT JOIN silver.erp_cust_az12 ca
 ON ca.cid = cu.cst_key
