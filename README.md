@@ -34,7 +34,6 @@ Here is how my files are organized:
 * `scripts/bronze/` -> Code to load raw data.
 * `scripts/silver/` -> Code to clean the data.
 * `scripts/gold/` -> Code to finalize the data for reports.
-* `docs/` -> My diagrams and planning notes.
 
 ---
 
